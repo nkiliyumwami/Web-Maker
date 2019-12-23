@@ -1,0 +1,23 @@
+{
+  "name": "web-maker",
+  "version": "1.0.0",
+  "description": "Msimbo BootCamp Assignment1 HTML-CSS-BOOTSTRAP\r In this assignement we were learning the basic of HTML5, CSS and Bootstrap.\r We covered everything from the html syntax, to linking css file, creating forms, navbars, boutton, images,video..",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkiliyumwami/Web-Maker.git"
+  },
+  "author": "Emmanuel Nkiriyumwami",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nkiliyumwami/Web-Maker/issues"
+  },
+  "homepage": "https://github.com/nkiliyumwami/Web-Maker#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
